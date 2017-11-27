@@ -493,7 +493,6 @@ public class PrivateCollectActivity extends AppCompatActivity {
         search_text.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
 
             @Override

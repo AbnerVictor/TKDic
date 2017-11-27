@@ -130,7 +130,10 @@
             />
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:scrollbars="vertical"
             android:text="三国时期蜀汉丞相，杰出的政治家、军事家、外交家、文学家、书法家、发明家。"
             android:id="@+id/profile_story"
             />
